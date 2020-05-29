@@ -20,8 +20,7 @@ class Player
     fill(_c);
     ellipse(_x, _y, 10, 10);
   }
-  //3. Circles move in random directions, bouncing
-  //off any walls they hit.
+
   public void Move()
   {
     _x=_x+_Xvel;
@@ -42,16 +41,4 @@ class Player
     Draw();
     Move();
   }
-  //4. If they hit another circle though, they both
-  //die.
-  //public boolean IsColliding(Player other)
-  //{
-  //  return false;
-  //}
-
-  //public void SetPosition(float x, float y)
-  //{
-  //  x=-80000000;
-  //  y=-80000000;
-  //}
 }

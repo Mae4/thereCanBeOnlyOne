@@ -34,5 +34,3 @@ void draw()
     }
   }
 }
-
-//Check in class for 3 and 4
